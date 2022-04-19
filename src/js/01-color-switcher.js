@@ -13,8 +13,7 @@ var div = document.createElement('div');
         btnStop.disabled = false;
     return document.body.style.backgroundColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
   }, 1000);
-};
-
+}; 
   btnStop.addEventListener("click", () => {
     btnStart.disabled = false; 
     btnStop.disabled = true;
